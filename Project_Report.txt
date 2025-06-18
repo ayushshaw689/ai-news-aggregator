@@ -1,0 +1,51 @@
+📄 PROJECT REPORT: AI-POWERED NEWS AGGREGATOR WEBSITE
+
+👨‍💻 Developer: Ayush Kumar Shaw
+
+---
+
+🔰 INTRODUCTION:
+This project aims to create a modern AI-powered news aggregator website that not only shows the latest headlines but also uses Natural Language Processing (NLP) to summarize articles into quick, readable briefs using Large Language Models (LLMs). The project provides category filters, a search bar, and a "Read Later" feature.
+
+---
+
+💡 OBJECTIVE:
+- Aggregate top news articles daily.
+- Allow users to click on an article and get an AI-generated summary.
+- Let users filter by category or search by keyword.
+- Provide a "Read Later" feature using browser storage.
+
+---
+
+🛠️ TECHNOLOGY STACK:
+- Frontend: Vite, ReactJS, Tailwind CSS
+- Backend: FastAPI (Python), Transformers (HuggingFace)
+- NLP Model: facebook/bart-large-cnn
+- External APIs: NewsAPI.org
+- Storage: LocalStorage (Read Later)
+
+---
+
+⚙️ FUNCTIONALITY:
+- Fetch and display top headlines from NewsAPI.
+- Summarize articles using a transformer model.
+- Filter articles by category (tech, sports, etc.).
+- Search through titles.
+- Bookmark news items to read later.
+
+---
+
+🚀 OUTPUT:
+A fully working web app that uses real-time data, real AI summarization, and modern UI/UX principles.
+
+---
+
+📌 FUTURE SCOPE:
+- Add login/signup to sync "Read Later" across devices.
+- Host backend with a database and cron jobs.
+- Enable voice narration or translation of summaries.
+
+---
+
+✅ STATUS:
+Fully functional with frontend and backend integration, AI summarization, and category/search/bookmark features.
